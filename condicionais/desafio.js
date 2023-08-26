@@ -4,11 +4,11 @@ const myFuels = "Etanol";
 const distanceKM = 25;
 const gastoMedio = 0.43;
 
-if(myFuels == 'Etanol' || myFuels == 'etanol'){
-    totalViagem = custoEtanol / distanceKM
+if(myFuels === 'Etanol' || myFuels === 'etanol'){
+    totalViagem = custoEtanol * distanceKM
     console.log(`Sua viagem custará R$${totalViagem}`);
-}else if (myFuels == 'Gasolina' || myFuels == 'gasolina'){
-    totalViagem = custoGasolina / distanceKM
+}else if (myFuels === 'Gasolina' || myFuels === 'gasolina'){
+    totalViagem = custoGasolina * distanceKM
     console.log(`A viagem custará R$${totalViagem}`);
 }else{
     console.log("Verifique os valores, e preencha corretamente.")
