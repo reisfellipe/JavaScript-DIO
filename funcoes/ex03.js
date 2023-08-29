@@ -26,3 +26,14 @@ function main(){
 }
 //chamando a função
 main();
+
+
+//FUNÇÕES INVOCADAS IMEDIATAMENTE: outra forma de criar e executar a função é deixando elas isoladas dentro de ().
+
+(function main(){
+    const prim = 10;
+    const segu = 1.50;
+    const imc = calcularImc(prim,segu);
+
+    console.log(classificarImc(prim,segu));
+})();      //DESSA FORMA ELA CRIA E SE EXECUTA. ela só existe dentro dos (), então não sera possível chamar em outro lugar de fora dos ()
