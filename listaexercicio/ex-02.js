@@ -1,5 +1,5 @@
-const peso = 58;
-const altura = 1.69;
+const peso = 75;
+const altura = 1.59;
 const imc = peso / Math.pow(altura, 2);
 console.log(imc);
 
