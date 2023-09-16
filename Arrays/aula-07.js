@@ -8,6 +8,8 @@ for (let i = 0; i < numeros.length; i++) {
 
     if (impar > 0){
         console.log(numeros[i] + " IMPAR");
+    }else{
+        console.log(`esse ${numeros[i]} é PAR`)
     }
     
 }
