@@ -1,4 +1,4 @@
-const {gets, print } = require('./aula-01');
+const {gets, print } = require ('./aula-01');
 
 const quantidadeDeAlunos = gets();
 let maiorValorEncontrado = 0;
