@@ -1,6 +1,8 @@
 function calculo (x,y) {
     soma = x + y;
+    compare = x === y;
 
+    console.log(`são iguais? = ${compare}`)
     console.log(`resultado soma = ${soma}`)
 
     if (x == y){
@@ -20,4 +22,6 @@ function calculo (x,y) {
 
 }
 
-console.log(calculo(2,1));
+console.log(calculo(13,10));
+
+//prática 
