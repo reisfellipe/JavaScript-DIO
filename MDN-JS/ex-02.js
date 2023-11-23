@@ -5,4 +5,4 @@ var nd = array[1]
 var rd = array[array.length - 1]
 
 console.log(myArray  + "\n" + st + "\n" + nd + "\n" + rd)
-console.log(array.split([1]))
+console.log(array.split("\n"))
